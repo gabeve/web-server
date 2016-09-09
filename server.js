@@ -8,7 +8,7 @@ app.use(middleware.logger);
 // app.use(middleware.requireAuthentication);
 
 app.get('/hello', function(req, res) {
-    res.send('Hello express!');
+    res.send('Hello express!!');
 });
 
 /*
